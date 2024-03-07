@@ -1,0 +1,17 @@
+@font-face {
+    src: url('/fonts/SCIENCEGOTHIC[YOPQ\,SLNT\,WDTH\,WGHT].TTF') format("woff2"),
+         url('/fonts/ScienceGothic[YOPQ\,slnt\,wdth\,wght].ttf') format("woff"),
+        url('/fonts/ScienceGothic[YOPQ\,slnt\,wdth\,wght].ttf') format('truetype');
+       
+    font-family: 'ScienceGothic';
+    font-style: normal;
+    font-weight: normal;
+}
+
+body { 
+    background-color: rgb(255, 255, 255);
+}
+
+h2 { 
+    align-items: center;
+}
