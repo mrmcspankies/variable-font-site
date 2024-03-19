@@ -1,17 +1,99 @@
 @font-face {
-    src: url('/fonts/SCIENCEGOTHIC[YOPQ\,SLNT\,WDTH\,WGHT].TTF') format("woff2"),
-         url('/fonts/ScienceGothic[YOPQ\,slnt\,wdth\,wght].ttf') format("woff"),
-        url('/fonts/ScienceGothic[YOPQ\,slnt\,wdth\,wght].ttf') format('truetype');
+    src: url('/fonts/ScienceGothic[YOPQ\,slnt\,wdth\,wght].woff2') format("woff2"),
+         url('/fonts/ScienceGothic[YOPQ\,SLNT\,WDTH\,WGHT].TTF') format("woff"),
+        url('/fonts/ScienceGothic[YOPQ\,SLNT\,WDTH\,WGHT].TTF') format('truetype');
        
-    font-family: 'ScienceGothic';
+    font-family: 'sciencegothic';
     font-style: normal;
     font-weight: normal;
 }
-
+*{
+    border: blue 3px dashed;} 
+    
 body { 
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 4) ;
+    font-family: 'sciencegothic';
+    text-align: center;
 }
 
-h2 { 
-    align-items: center;
+nav{
+    position: fixed;
+    bottom:0px;
+    background-color: green;
+}
+
+.page-wrapper {
+display: grid;
+grid-template-columns: repeat(1,1fr);
+grid-template-rows: 200px;
+
+     
+}
+
+svg {
+    width: 300px; 
+    height:300px;
+}
+
+
+.s {
+    
+    animation: weightchange 7s infinite;
+}
+
+.first-c {
+animation: weightchange 7s infinite; 
+} 
+
+.first-i {
+    animation: weightchange 7s infinite;
+}    
+
+.first-e {
+    animation: weightchange 7s infinite;
+}
+
+.n{
+    animation: weightchange 7s infinite;
+}
+.second-c {
+    animation: weightchange 7s infinite;
+}
+
+.second-e {
+    animation: weightchange 7s infinite;
+}
+
+.g{
+    animation: weightchange 7s infinite;
+}
+
+.o {
+    animation: weightchange 7s infinite;
+}
+
+.t {
+    animation: weightchange 7s infinite;
+}
+
+.h {
+    animation: weightchange 7s infinite;
+}
+
+.second-i {
+    animation: weightchange 7s infinite;
+}
+
+.third-c {
+    animation: weightchange 7s infinite;
+}
+
+@keyframes weightChange {
+    0%, 100%{
+        font-variation-settings: "YOPQ" 10, "slnt" -10, "wdth" 50, "wght" 100;
+        
+    }
+    
+    
 }
