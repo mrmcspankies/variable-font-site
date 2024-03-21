@@ -7,8 +7,7 @@
     font-style: normal;
     font-weight: normal;
 }
-*{
-    border: blue 3px dashed;} 
+
     
 body { 
     background-color: rgb(0, 0, 0);
@@ -36,64 +35,197 @@ svg {
     height:300px;
 }
 
+ul {
+    list-style-type: none;
+  }
+     
+ #history {
+
+ width: min(100% - 3rem, 80ch);
+ margin: 0 auto;
+ }
+
+h1 {
+    font-size: 125px;
+    
+}
+
 
 .s {
-    
-    animation: weightchange 7s infinite;
+      animation: s 7s infinite;
+   
 }
+@keyframes s {
+    from {
+         font-variation-settings: "YOPQ" 18, "slnt" 10, "wdth" 50, "wght" 100;
+         
+     }
+     to { font-variation-settings: "YOPQ" 122, "slnt" 10, "wdth" 150, "wght" 400;}
+     
+     
+ }
+    
+
 
 .first-c {
-animation: weightchange 7s infinite; 
+animation: first-c 7s infinite; 
 } 
+@keyframes first-c {
+    from {
+         font-variation-settings: "YOPQ" 18, "slnt" -10, "wdth" 50, "wght" 100;
+         
+     }
+     to { font-variation-settings: "YOPQ" 18, "slnt" 0, "wdth" 80, "wght" 900;}
+    
+    }
 
 .first-i {
-    animation: weightchange 7s infinite;
+    animation: first-i 7s infinite;
 }    
 
+@keyframes first-i {
+    from {
+         font-variation-settings: "YOPQ" 18, "slnt" 0, "wdth" 50, "wght" 100;
+         
+     }
+     to { font-variation-settings: "YOPQ" 18, "slnt" -10, "wdth" 200, "wght" 400;}
+    
+    }
+
 .first-e {
-    animation: weightchange 7s infinite;
+    animation: first-e 7s infinite;
 }
+
+@keyframes first-e {
+    from {
+         font-variation-settings: "YOPQ" 18, "slnt" 0, "wdth" 50, "wght" 100;
+         
+     }
+     to { font-variation-settings: "YOPQ" 122, "slnt" -10, "wdth" 70, "wght" 400;}
+    
+    }
+
+
 
 .n{
-    animation: weightchange 7s infinite;
+    animation: n 7s infinite;
 }
+@keyframes n {
+    from {
+         font-variation-settings: "YOPQ" 18, "slnt" 0, "wdth" 50, "wght" 900;
+         
+     }
+     to { font-variation-settings: "YOPQ" 60, "slnt" -10, "wdth" 70, "wght" 100;}
+    
+    }
+
 .second-c {
-    animation: weightchange 7s infinite;
+    animation: second-c 7s infinite;
 }
+
+@keyframes second-c {
+    from {
+         font-variation-settings: "YOPQ" 18, "slnt" -10, "wdth" 50, "wght" 100;
+         
+     }
+     to { font-variation-settings: "YOPQ" 18, "slnt" 0, "wdth" 70, "wght" 300;}
+    
+    }
+
 
 .second-e {
-    animation: weightchange 7s infinite;
+    animation: second-e 7s infinite;
 }
+
+@keyframes second-e {
+    from {
+         font-variation-settings: "YOPQ" 18, "slnt" 0, "wdth" 200, "wght" 100;
+         
+     }
+     to { font-variation-settings: "YOPQ" 18, "slnt" 0, "wdth" 50, "wght" 300;}
+    
+    }
+
+
 
 .g{
-    animation: weightchange 7s infinite;
+    animation: g 7s infinite;
 }
+
+@keyframes g {
+    from {
+         font-variation-settings: "YOPQ" 18, "slnt" 0, "wdth" 200, "wght" 100;
+         
+     }
+     to { font-variation-settings: "YOPQ" 122, "slnt" 0, "wdth" 50, "wght" 300;}
+    
+    }
+
+
 
 .o {
-    animation: weightchange 7s infinite;
+    animation: o 7s infinite;
 }
+
+@keyframes o {
+    from {
+         font-variation-settings: "YOPQ" 18, "slnt" 0, "wdth" 75, "wght" 900;
+         
+     }
+     to { font-variation-settings: "YOPQ" 72, "slnt" 0, "wdth" 50, "wght" 100;}
+    
+    }
 
 .t {
-    animation: weightchange 7s infinite;
+    animation: t 7s infinite;
 }
+
+@keyframes t {
+    from {
+         font-variation-settings: "YOPQ" 18, "slnt" -10, "wdth" 50, "wght" 200;
+         
+     }
+     to { font-variation-settings: "YOPQ" 18, "slnt" 0, "wdth" 150, "wght" 100;}
+    
+    }
+
 
 .h {
-    animation: weightchange 7s infinite;
+    animation: h 7s infinite;
 }
+
+@keyframes h {
+    from {
+         font-variation-settings: "YOPQ" 18, "slnt" -7, "wdth" 50, "wght" 100;
+         
+     }
+     to { font-variation-settings: "YOPQ" 56, "slnt" 0, "wdth" 150, "wght" 100;}
+    
+    }
 
 .second-i {
-    animation: weightchange 7s infinite;
+    animation: second-i 7s infinite;
 }
+
+@keyframes second-i {
+    from {
+         font-variation-settings: "YOPQ" 18, "slnt" 0, "wdth" 200 "wght" 100;
+         
+     }
+     to { font-variation-settings: "YOPQ" 122, "slnt" 0, "wdth" 68, "wght" 100;}
+    
+    }
 
 .third-c {
-    animation: weightchange 7s infinite;
+    animation: third-c 7s infinite;
+    
 }
-
-@keyframes weightChange {
-    0%, 100%{
-        font-variation-settings: "YOPQ" 10, "slnt" -10, "wdth" 50, "wght" 100;
-        
+@keyframes third-c {
+    from {
+         font-variation-settings: "YOPQ" 18, "slnt" 0, "wdth" 200 "wght" 100;
+         
+     }
+     to { font-variation-settings: "YOPQ" 122, "slnt" 0, "wdth" 68, "wght" 100;}
+    
     }
-    
-    
-}
+
