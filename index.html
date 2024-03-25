@@ -6,14 +6,20 @@
     <link rel="stylesheet" href="navigation.css">
     </head>
     <body>
-        <nav>
+      <header>
+        <input type="checkbox" id="nav-checkbox" class="nav-checkbox">
+        <nav class="page-nav">
           <ul>
-            <li>settings</li>
-            <li>character set</li>
-            <li>History</li>
-            <li>footer</li>
+            <li><a href="#font-options">settings</a></li>
+            <li><a href="#character-set">character set</a></li>
+            <li><a href="#history">History</a></li>
+            
           </ul>
         </nav>
+        <lable for="nav-checkbox" class="nav-checkbox-icon">
+          <span></span>
+        </lable>
+        </header>
         <!-- science gothic -->
        <h1>
         <span class="s">S</span>
@@ -32,7 +38,6 @@
         </h1>
      
      
-        </section>
         <section class="page-wrapper">
         <section id="font-options">
         <h2>Font Options</h2>
@@ -56,7 +61,7 @@
 <h2>History</h2>
 <p>Science gothic was created by Thomas Phinney, Vassil Kateliev, Brandon Buerkle. This variable font with 4 axes is equivalent to 200+ different fonts. This font's medium weight is based on bank gothic which was created in 1930-1934 by Morris Fuller Benton for American type founders. American Type Founders is a business trust created in 1892 which merged 23 type foundries which was 85% of type created in the united states in the early 20th century.</p>
 </section>
-<section id="download_asset">
+<section id="downloadasset">
 <h2>Download</h2>
 
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 309.93 337.09">
@@ -84,9 +89,7 @@
 </section>
 </section>
     
-    <footer>
-        Created by Ben Thwing | Umass Dartmouth CVPA | AXD 254-02 Web Typography | 
-        Contact: <a href="mailto:benjaminthwing@gmail.com">benjaminthwing@gmail.com</a>
-    </footer>
+    <div class="footer"> Created by Ben Thwing | Umass Dartmouth CVPA | AXD 254-02 Web Typography | 
+      Contact: <a href="mailto:benjaminthwing@gmail.com">benjaminthwing@gmail.com</a></div>
 </body>
 </html>
