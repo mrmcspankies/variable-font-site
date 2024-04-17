@@ -21,6 +21,13 @@ body {
    
 }
      
+#alphabet {
+    width: min(100% - 3rem, 30ch);
+    margin: auto;
+    margin-bottom: 100px;
+    border: solid; padding-left: 20px; padding-right: 20px;
+   
+}
 svg {
     width: 300px; 
     height:300px;
@@ -37,30 +44,40 @@ ul {
    }
 
  #font-options {
+    width: min(100% - 3rem, 20ch);
+    margin: auto;
+    margin-bottom: 100px;
+    border: solid; padding-left: 20px; padding-right: 20px;
    
-    margin-bottom: 100px;   
-   
+    
+    
   }
 
 #character-set {
     width: min(100% - 3rem, 80ch);
     margin: auto;
     margin-bottom: 100px;
-    border: solid;
+    border: solid; padding-left: 20px; padding-right: 20px;
    
   }
      
  #history {
-
+text-align: left;
  width: min(100% - 3rem, 80ch);
  margin: 0 auto;
  margin-bottom:100px;
+ border: solid; padding-left: 20px; padding-right: 20px;
+   
  }
 
 .hero-section {
     font-size: 125px;
-    margin-bottom:500px;
-    
+    margin-bottom:350px;
+    padding-top: 150px;
+}
+
+h2 {
+    text-align: center;
 }
 
 
@@ -243,5 +260,12 @@ animation: first-c 7s infinite;
     }
 
    footer {
+    padding-top: 50px;
+    padding-bottom: 125px;
     bottom: -220px;
    }
+
+   a:link {
+    color:rgb(0, 255, 4)
+   }
+  
