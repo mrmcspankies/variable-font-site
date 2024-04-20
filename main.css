@@ -83,7 +83,7 @@ h2 {
    
 }
 
-@media (max-wdith: 600px) {
+@media (min-wdith: 1000px) {
     .hero-section {font-size: 25px;}
 }
 
