@@ -82,6 +82,13 @@ h2 {
       animation: s 7s infinite;
    
 }
+
+@media (max-wdith: 1000px) {
+    .hero-section {font-size: 125px;}
+}
+
+    
+
 @keyframes s {
     from {
          font-variation-settings: "YOPQ" 18, "slnt" 10, "wdth" 50, "wght" 100;
