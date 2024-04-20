@@ -1,7 +1,9 @@
 @font-face {
     font-family: "Science Gothic";
-    src:  url("fonts/ScienceGothic[YOPQ\,slnt\,wdth\,wght].ttf") format("truetype-variations");
-   
+    src: url("fonts/SCIENCEGOTHIC[YOPQ,SLNT,WDTH,WGHT].ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+
 }
 
     
@@ -10,7 +12,8 @@ body {
     background-color: rgb(0, 0, 0);
     color: rgb(0, 255, 4) ;
     font-family: "Science Gothic";
-    
+    font-style: normal;
+    font-weight: normal;
     text-align: center;
    
 }
