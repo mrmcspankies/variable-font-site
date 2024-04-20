@@ -1,7 +1,6 @@
 @font-face {
-    src:  url("fonts/ScienceGothic[YOPQ\,SLNT\,WDTH\,WGHT].TTF") format("truetype"),
-    url("fonts/ScienceGothic[YOPQ\,slnt\,wdth\,wght].woff2") format("woff2");
-       
+    src:  url("fonts/ScienceGothic[YOPQ\,SLNT\,WDTH\,WGHT].TTF") format("truetype");
+    
        
     font-family: "Science Gothic";
     font-style: normal;
